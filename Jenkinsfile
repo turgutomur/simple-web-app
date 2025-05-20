@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/your-github-username/your-repo-name.git'
+                git 'https://github.com/turgutomur/simple-web-app.git'
             }
         }
 
