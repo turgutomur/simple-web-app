@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String getHome() {
-        return "Project is donee!";
+        return "Project is already done!";
     }
 }
