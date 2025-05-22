@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HOST = "tcp://localhost:2375"
+        DOCKER_HOST = "unix:///var/run/docker.sock"
         IMAGE_NAME = "omurturgut/simple-web-app"
         IMAGE_TAG = "latest"
     }
