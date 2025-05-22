@@ -2,7 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "your-dockerhub-username/simple-web-app"
+        DOCKER_HOST = "tcp://localhost:2375"
+        IMAGE_NAME = "omurturgut/simple-web-app"
         IMAGE_TAG = "latest"
     }
 
